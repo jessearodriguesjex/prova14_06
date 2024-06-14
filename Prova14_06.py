@@ -4,11 +4,10 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-# título na barra do navegador
 st.set_page_config(
-    page_title="Prova 14_06",
-    
+page_title="Prova14_06",
 )
+    
 
 df = pd.read_csv("https://raw.githubusercontent.com/jessearodriguesjex/prova14_06/main/projetos-1.csv", sep=";") 
 st.dataframe(df)
