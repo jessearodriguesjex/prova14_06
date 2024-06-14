@@ -2,7 +2,6 @@
 #importando as bibliotecas
 import pandas as pd
 import streamlit as st
-import ipeadatapy as ip
 import matplotlib.pyplot as plt
 
 # título na barra do navegador
