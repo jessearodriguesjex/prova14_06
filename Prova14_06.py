@@ -1,7 +1,7 @@
 
 import pandas as pd  
 import streamlit as st
-import matplotlib.pyplot as plt
+
 
 # título na barra do navegador
 st.set_page_config(
