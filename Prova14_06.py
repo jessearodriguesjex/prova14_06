@@ -10,6 +10,7 @@ st.set_page_config(
    )
 st.header("Prova 14_06 Jesse Rodrigues")   
 
+st.header("Dados do Projeto")  
 df = pd.read_csv("https://raw.githubusercontent.com/jessearodriguesjex/prova14_06/main/projetos-1.csv", sep=";") 
 st.dataframe(df)
 
