@@ -7,9 +7,8 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(
     page_title="Prova 14_06",
-    page_icon="👋",
-)
-   
+   )
+st.header("Prova 14_06")   
 
 df = pd.read_csv("https://raw.githubusercontent.com/jessearodriguesjex/prova14_06/main/projetos-1.csv", sep=";") 
 st.dataframe(df)
