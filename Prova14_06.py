@@ -81,3 +81,18 @@ fig, ax = plt.subplots()
 df["Projeto4"].plot(kind='hist', ax=ax)
 # Exibição do gráfico no Streamlit
 st.pyplot(fig)
+
+
+"---" 
+
+st.header("IPEADATA")  
+
+ip.list_series('Selic')
+
+selic = ip.timeseries('BM12_TJOVER12', yearGreaterThan=2021, yearSmallerThan=2024)
+selic
+
+ip.timeseries('BM12_TJOVER12', year=2021).plot("MONTH", "VALUE ((% a.m.))")
+ip.timeseries('BM12_TJOVER12', year=2022).plot("MONTH", "VALUE ((% a.m.))")
+st.dataframe()
+
